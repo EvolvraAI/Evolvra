@@ -2,7 +2,7 @@
 name = "evolvra-ai"
 version = "0.1.0"
 description = "A decentralized AI agent framework built for Solana."
-authors = https://x.com/evolvra_ai
+authors = "https://x.com/evolvra_ai"
 license = "MIT"
 
 [tool.poetry.dependencies]

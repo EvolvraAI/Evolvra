@@ -1,0 +1,48 @@
+# Evolvra AI Configuration
+
+# Network Settings
+network:
+  protocol: "ws"  # websocket protocol for agent communication
+  port: 8765
+  max_connections: 100
+  timeout: 30  # seconds
+
+# Agent Settings
+agent:
+  default_memory_size: 1024  # MB
+  max_tasks: 50
+  learning_rate: 0.001
+  batch_size: 32
+  capabilities:
+    - task_execution
+    - learning
+    - communication
+  
+# Blockchain Settings
+solana:
+  network: "devnet"  # Options: mainnet-beta, testnet, devnet
+  rpc_url: "https://api.devnet.solana.com"
+  commitment: "confirmed"
+  max_retries: 3
+  timeout: 30
+
+# Task Scheduler
+scheduler:
+  max_concurrent_tasks: 10
+  priority_levels: 3
+  default_priority: 1
+  task_timeout: 300  # seconds
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "evolvra.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5
+
+# Security
+security:
+  encryption_algorithm: "AES-256-GCM"
+  key_rotation_interval: 86400  # 24 hours in seconds
+  min_password_length: 12

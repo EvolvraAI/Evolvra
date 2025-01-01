@@ -1,0 +1,23 @@
+cryptography>=41.0.0  # For secure communication and blockchain interactions
+pytest>=7.0.0         # For testing
+pytest-asyncio>=0.18.0 # For testing async functions
+solana>=0.23.0        # For Solana blockchain integration
+aioredis>=2.0.0       # For async state management (if Redis is used)
+pydantic>=1.10.0      # For structured data validation
+asyncio               # For async programming (builtin in Python 3.7+, but document its use)
+uvloop>=0.17.0        # For faster event loops in async code
+aiohttp>=3.8.0        # For HTTP communication
+numpy>=1.21.0         # For numerical operations
+torch>=1.11.0         # For machine learning and neural network tasks
+python-dotenv>=0.20.0 # For managing environment variables
+sqlalchemy>=1.4.0     # For relational database support (if needed)
+pymongo>=4.0.0        # For MongoDB support (if NoSQL is preferred)
+loguru>=0.6.0         # For enhanced logging capabilities
+flake8>=6.0.0         # For code linting
+black>=23.0.0         # For code formatting
+mypy>=0.990           # For type checking
+mkdocs>=1.4.0         # For project documentation
+sphinx>=5.3.0         # For detailed project documentation
+authlib>=1.2.0        # For OAuth and secure authentication mechanisms
+hypothesis>=6.54.0    # For property-based testing
+anchorpy>=0.16.0      # For Solana smart contract integration (if applicable)

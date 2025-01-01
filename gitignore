@@ -1,0 +1,34 @@
+
+# Python bytecode
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Logs and database
+*.log
+*.sqlite3
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Tests
+.tox/
+.pytest_cache/
+.coverage
+
+# Tools and IDEs
+*.idea/
+.vscode/
+*.swp
+*.swo
+
+# Packaging
+*.egg-info/
+dist/
+build/

@@ -172,6 +172,13 @@ We welcome contributions to Evolvra AI! Please follow these steps:
 
 https://x.com/evolvra_ai
 
+# Gitbook
+
+Welcome to the Evolvra project! For detailed documentation, check out our GitBook:
+
+[Visit the Evolvra GitBook](https://evolvra-ai.gitbook.io/evolvra)
+
+
 ---
 
 ## License

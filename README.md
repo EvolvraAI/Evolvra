@@ -1,5 +1,7 @@
 # Evolvra AI
 
+![social_media_banner](https://github.com/user-attachments/assets/ba8050a2-4dc1-49e2-a127-62df89a7c5f5)
+
 Evolvra AI is a decentralized AI framework designed to facilitate the creation and management of autonomous agent networks on the Solana blockchain. By combining decision-making algorithms, peer-to-peer communication, and efficient state management, Evolvra AI enables secure, scalable, and customizable agent behaviors for diverse use cases, such as distributed learning, collaborative decision-making, and task execution.
 
 ## Features
